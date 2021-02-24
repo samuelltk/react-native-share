@@ -1,11 +1,37 @@
 {
-  "name": "react-native-share",
-  "description": "Social share, sending simple data to other apps.",
-  "version": "1.2.1",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/react-native-community/react-native-share.git"
+  "_from": "react-native-share@1.2.1",
+  "_id": "react-native-share@1.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-N1ajzzg8FImmoO3ytSnsAl7o+Pc=",
+  "_location": "/react-native-share",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-share@1.2.1",
+    "name": "react-native-share",
+    "escapedName": "react-native-share",
+    "rawSpec": "1.2.1",
+    "saveSpec": null,
+    "fetchSpec": "1.2.1"
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-share/download/react-native-share-1.2.1.tgz",
+  "_shasum": "3756a3cf383c1489a6a0edf2b529ec025ee8f8f7",
+  "_spec": "react-native-share@1.2.1",
+  "_where": "/Users/schneider/Documents/GitHub/Rock2",
+  "author": {
+    "name": "Esteban Fuentealba",
+    "email": "efuentealba@json.cl"
+  },
+  "bugs": {
+    "url": "https://github.com/react-native-community/react-native-share/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Social share, sending simple data to other apps.",
   "devDependencies": {
     "@commitlint/cli": "6.2.0",
     "@commitlint/config-conventional": "6.1.3",
@@ -29,6 +55,7 @@
     "react-native": "0.59.5",
     "simple-git": "1.89.0"
   },
+  "homepage": "https://github.com/react-native-community/react-native-share#readme",
   "keywords": [
     "react-native",
     "android",
@@ -38,12 +65,6 @@
     "react",
     "share"
   ],
-  "nativePackage": true,
-  "author": {
-    "name": "Esteban Fuentealba",
-    "email": "efuentealba@json.cl"
-  },
-  "homepage": "https://github.com/react-native-community/react-native-share#readme",
   "license": "MIT",
   "lint-staged": {
     "*.js": [
@@ -52,8 +73,13 @@
       "git add"
     ]
   },
+  "name": "react-native-share",
+  "nativePackage": true,
   "pre-commit": "lint:staged",
-  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-community/react-native-share.git"
+  },
   "scripts": {
     "commitmsg": "commitlint -e $GIT_PARAMS",
     "lint": "eslint index.js --max-warnings=0",
@@ -63,5 +89,6 @@
     "release:minor": "node ./changelog --minor && npm version minor && git push origin && git push origin --follow-tags",
     "release:patch": "node ./changelog --patch && npm version patch && git push origin && git push origin --follow-tags",
     "release:version": "node ./changelog --version $VERSION && git push origin && git push origin --follow-tags"
-  }
+  },
+  "version": "1.2.1"
 }
